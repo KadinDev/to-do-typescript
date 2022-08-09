@@ -1,0 +1,59 @@
+
+.container {
+    margin-top: 1.5rem;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1.5rem 1fr 1.5rem;
+    align-items: center;
+
+    background-color: var(--gray-400);
+    border-radius: 8px;
+}
+
+
+.checkbox {
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    
+    outline: none;
+    cursor: pointer;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.containerCheck {
+    background-color: var(--purple-dark);
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentBorder {
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.contentWithBorder {
+    text-decoration: line-through;
+    color: var(--gray-200);
+    opacity: 0.4;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.buttonDelete {
+    background-color: transparent;
+    border: none;
+}
